@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR&display=swap');
+
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans';
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  width: 500px;
+}
+
+.App {
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* HEADER */
+
+header {
+  padding-top: 80px;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid #5d5d5d;
+}
+
+header .text_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .day_text {
+  font-size: 50px;
+  font-weight:bold;
+}
+
+header .year_month {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: end;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+/* INPUT BOX */
+
+section.Submit {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.input_box textarea {
+  font-family: 'Noto Sans Korean';
+  font-size: 20px;
+
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 380px;
+  resize: none;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #e4e4e4;
+
+  padding-left: 20px;
+  padding-top: 25px;
+}
+
+/* BUTTON */
+
+.button {
+cursor: pointer;
+border: none;
+border-radius: 5px;
+width: 68px;
+
+padding-top: 10px;
+padding-bottom: 10px;
+margin-bottom: 5px;
+
+background-color: #bdbdbd;
+color:#2c2c2c;
+
+font-family: 'Noto Sans Korean';
+font-weight: bold;
+font-size: 18px;
+
+
+}
+
+/* TODOLIST */
+
+section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.List {
+  width: 455px;
+}
+
+.List h2 {
+  display: flex;
+  font-family: 'Noto Sans Korean';
+  font-size: 30px;
+  font-weight:bold;
+
+  margin-top: 20px;
+  margin-bottom: 8px;
+
+}
+
+
+
+/* TODOITEM */
+
+.TodoItem {
+  display: flex;
+  align-items:center;
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+.TodoItem .content{
+  font-family: 'Noto Sans Korean';
+  font-size: 25px;
+  font-weight:500;
+  padding-left: 11px;
+  padding-top: 2px;
+}
+
+svg {
+  display: flex;
+  align-items: center;
+}
+
+.checkBtn {
+  cursor: pointer;
+  font-size: 25px;
+  color:rgb(91, 91, 91);
+  border: solid 1px rgb(91, 91, 91);
+  border-radius: 16px;
+  
+  margin-left: 3px;
+}
+
+.checkBtn:hover {
+  cursor: pointer;
+  font-size: 25px;
+
+  color:rgb(57, 185, 108);
+  border: solid 1px rgb(57, 185, 108);
+  border-radius: 16px;
+  
+  margin-left: 3px;
+}
+.checkBtn:active {
+  cursor: pointer;
+  font-size: 25px;
+
+  color:rgb(57, 185, 108);
+  border: solid 1px rgb(57, 185, 108);
+  border-radius: 16px;
+  
+  margin-left: 3px;
+}
+.checkBtn_on {
+  cursor: pointer;
+  font-size: 25px;
+
+  color:rgb(57, 185, 108);
+  border: solid 1px rgb(57, 185, 108);
+  border-radius: 16px;
+  
+  margin-left: 3px;
+}
+
+.removeBtn{
+  cursor: pointer;
+
+  color:#b7b7b7;
+  font-size: 15px;
+  margin-left: auto;
+  padding-top: 0.5px;
+
+}
+.removeBtn:hover{
+  cursor: pointer;
+
+  color:#797979;
+  font-size: 15px;
+  margin-left: auto;
+  padding-top: 0.5px;
+}
+
